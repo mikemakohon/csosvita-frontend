@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
 .nav-cart {
   padding: 12px 16px;
   font-size: 1.5em;
@@ -11,4 +15,36 @@
   color: #fff;
   text-decoration: none;
   border: none;
+}
+
+.product-card__heading {
+  text-transform: capitalize;
+  width: fit-content;
+  font-size: 1.75em;
+  font-weight: 500;
+  color: #121212;
+}
+
+.product-card__subheading {
+  margin-top: 8px;
+  width: fit-content;
+  font-size: 1.5em;
+  letter-spacing: 0.3px;
+  color: #7f7f7f;
+}
+
+.product-card__price {
+  margin-top: 16px;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 2.125em;
+  color: #121212;
+}
+
+.product-card__ad {
+  margin-top: 8px;
+  width: fit-content;
+  font-size: 1.5em;
+  letter-spacing: 0.3px;
+  color: #a27b5c;
 }
